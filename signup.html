@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pannella music</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/91622b084a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="login-form">
+        <h1>Create Account</h1>
+        <div class="container">
+            <div id="modal" class="modal-overlay">
+                <div class="modal">
+                    <div class="modal-header"><i class="fa-solid fa-rotate"></i></div>
+                    <div class="modal-header">GAGAL!</div>
+                    <div class="modal-body">Pastikan semua kolom terisi</div>
+                    <button class="modal-close" id="closeModalBtn">Coba lagi</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="content" style="background-color: gray;">
+                    <h2>Sign In</h2>
+                    <form action="javascript:void(0);" method="post" onsubmit="validateForm(event)">
+                        <input type="text" name="" placeholder="User Name" autofocus="" id="username">
+                        <input type="text" name="" placeholder="No. Telephone" autofocus="" id="notelp">
+                        <input type="gmail" name="" placeholder="Email" autofocus="" id="gmail">
+                        <input type="password" name="" placeholder="Password Account" autofocus="" id="password">
+
+                        <button id="btn" class="btn" onclick="window.location.href='profile.html';">Submit</button>
+                        </button>
+                    </form>
+                    <p class="account">Have an Account? <a href="login.html">Login</a></p>
+                </div>
+                <div class="form-img">
+                    <img src="PAS.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="sign.js"></script>
+</body>
+</html>
